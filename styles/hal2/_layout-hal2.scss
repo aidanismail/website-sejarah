@@ -1,0 +1,29 @@
+.logo{
+    background-color: burlywood;
+    padding-left: 935px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.judul-materi{
+    h1{
+        margin: 0px;
+    }
+    text-align: center;
+    background-color: burlywood;
+    padding-bottom: 50px;
+}
+
+.materi{
+    letter-spacing: 1px;
+    line-height: 1.3;
+    padding-right: 0px;
+    margin:100px 0px 100px 450px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+}
