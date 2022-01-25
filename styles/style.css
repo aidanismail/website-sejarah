@@ -122,6 +122,19 @@
   margin-left: 50px;
 }
 
+.materi h1 {
+  padding: 0;
+}
+.materi h3 {
+  margin-top: 0px;
+}
+.materi img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+
 html, body {
   height: 100%;
   width: 100%;
