@@ -109,6 +109,19 @@
   align-content: center;
 }
 
+.materi {
+  display: flex;
+  flex-direction: column;
+}
+.materi .sub-materi {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px 50px 0px;
+}
+.materi .sub-materi h3 {
+  margin-left: 50px;
+}
+
 html, body {
   height: 100%;
   width: 100%;

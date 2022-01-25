@@ -1,0 +1,12 @@
+.materi{
+    display: flex;
+    flex-direction: column;
+    .sub-materi{
+        h3{
+            margin-left: 50px;
+        }
+        display: flex;
+        flex-direction: row;
+        margin: 50px 0px 50px 0px;
+    }
+}
