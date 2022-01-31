@@ -60,15 +60,16 @@
 
 /*footer*/
 .footer{
-    h3{
-        padding-bottom: 20px;
-    }
     a{
-        img{
-            margin-top: 20px;
-            margin-right: 10px;
+        i{
+            padding-top: 10px;
+            margin-right: 15px;
         }
+    }
+    h3{
+        padding-bottom: 5px;
     }
     background-color: burlywood;
     text-align: center;
+    margin-bottom: 0px;
 }
