@@ -1,19 +1,19 @@
 /*header*/
 .header {
-  background-color: burlywood;
+  background-color: #8c7851;
   text-align: center;
   justify-content: center;
   align-content: center;
-  z-index: 100;
 }
 .header .header-list {
   display: flex;
   flex-direction: row;
-  gap: 100px;
-  margin-left: 275px;
+  margin-left: 100px;
+  margin-right: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 0px;
+  justify-content: space-between;
 }
 .header .header-list a {
   text-decoration: none;
@@ -24,7 +24,7 @@
 
 /*judul*/
 .cont1 {
-  background-color: burlywood;
+  background-color: #eaddcf;
   height: 100px;
   text-align: center;
   padding-top: 30px;
@@ -33,8 +33,12 @@
   margin: 0px;
 }
 .cont1 h3 {
-  background-color: burlywood;
-  padding-bottom: 100px;
+  background-color: #eaddcf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
 }
 
 /*jumbo*/
@@ -43,7 +47,10 @@
   justify-content: center;
   align-content: center;
   text-align: center;
-  margin: 200px 0 200px 0;
+  margin: 0px 0 0px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #eaddcf;
 }
 .jumbotron img {
   text-align: center;
@@ -54,7 +61,7 @@
 
 /*footer*/
 .footer {
-  background-color: burlywood;
+  background-color: #8c7851;
   text-align: center;
   margin-bottom: 0px;
 }
@@ -67,16 +74,17 @@
 }
 
 .logo {
-  background-color: burlywood;
-  padding-left: 935px;
-  padding-bottom: 20px;
+  background-color: #eaddcf;
+  text-align: center;
   justify-content: center;
   align-content: center;
+  display: flex;
+  padding: 20px 0px 20px 0px;
 }
 
 .judul-materi {
   text-align: center;
-  background-color: burlywood;
+  background-color: #eaddcf;
   padding-bottom: 50px;
 }
 .judul-materi h1 {
@@ -84,36 +92,28 @@
 }
 
 .img {
-  margin-top: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #eaddcf;
 }
 
 .materi {
   letter-spacing: 1.1px;
   line-height: 1.5;
   padding-right: 0px;
-  margin: 50px 0px 100px 300px;
+  padding: 50px 0px 100px 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   text-align: left;
-}
-
-.logo {
-  background-color: burlywood;
-  padding-left: 935px;
-  padding-bottom: 20px;
-  justify-content: center;
-  align-content: center;
+  background-color: #eaddcf;
 }
 
 .materi {
   display: flex;
   flex-direction: column;
-  margin-right: 500px;
 }
 .materi .sub-materi {
   display: flex;

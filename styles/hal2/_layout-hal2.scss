@@ -1,9 +1,13 @@
+$pri-color:#8c7851;
+$sec-color:#eaddcf;
+
 .logo{
-    background-color: burlywood;
-    padding-left: 935px;
-    padding-bottom: 20px;
+    background-color: $sec-color;
+    text-align: center;
     justify-content: center;
     align-content: center;
+    display: flex;
+    padding:20px 0px 20px 0px;
 }
 
 
@@ -12,25 +16,27 @@
         margin: 0px;
     }
     text-align: center;
-    background-color: burlywood;
+    background-color: $sec-color;
     padding-bottom: 50px;
 }
 
 .img{
-    margin-top: 75px;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: $sec-color;
 }
 
 .materi{
     letter-spacing: 1.1px;
     line-height: 1.5;
     padding-right: 0px;
-    margin:50px 0px 100px 300px;
+    padding:50px 0px 100px 300px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     text-align: left;
+    background-color: $sec-color;
 }

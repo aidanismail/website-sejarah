@@ -1,19 +1,22 @@
+$pri-color:#8c7851;
+$sec-color:#eaddcf;
+
 /*header*/
 .header{
-    background-color: burlywood;
+    background-color:$pri-color;
     text-align: center;
     justify-content: center;
     align-content: center;
-    z-index: 100;
 
     .header-list{
         display: flex;
         flex-direction: row;
-        gap: 100px;
-        margin-left: 275px;
+        margin-left: 100px;
+        margin-right: 100px;
         padding-top: 20px;
         padding-bottom: 20px;
         margin-bottom: 0px;
+        justify-content: space-between;
 
         a{
             text-decoration: none;
@@ -28,7 +31,7 @@
 
  /*judul*/
  .cont1{
-    background-color: burlywood;
+    background-color: $sec-color;
     height:100px;
     text-align: center;
     padding-top: 30px;
@@ -37,8 +40,12 @@
          margin: 0px;
      }
      h3{
-         background-color: burlywood;
-         padding-bottom: 100px;
+         background-color: $sec-color;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         margin: 0px;
      }
  }
 
@@ -48,7 +55,10 @@
     justify-content: center;
     align-content: center;
     text-align: center;
-    margin: 200px 0 200px 0;
+    margin: 0px 0 0px 0;
+    padding-top:100px;
+    padding-bottom:100px ;
+    background-color: $sec-color;
     img{
 
         text-align: center;
@@ -69,7 +79,7 @@
     h3{
         padding-bottom: 5px;
     }
-    background-color: burlywood;
+    background-color: $pri-color;
     text-align: center;
     margin-bottom: 0px;
 }
