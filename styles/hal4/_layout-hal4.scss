@@ -1,7 +1,11 @@
 .materi{
     display: flex;
     flex-direction: column;
+    padding-right: 150px;
     .sub-materi{
+        img{
+            margin-left: 0px;
+        }
         h3{
             margin-left: 50px;
         }

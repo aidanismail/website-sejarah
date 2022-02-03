@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 /*header*/
 .header {
   background-color: #8c7851;
@@ -67,10 +81,22 @@
 }
 .footer a i {
   padding-top: 10px;
-  margin-right: 15px;
+  margin-right: 14px;
 }
 .footer h3 {
   padding-bottom: 5px;
+}
+
+.header .header-list {
+  font-family: "Montserrat", "sans-serif";
+}
+
+.cont1 {
+  font-family: "Montserrat", "sans-serif";
+}
+
+.footer {
+  font-family: "Montserrat", "sans-serif";
 }
 
 .logo {
@@ -111,14 +137,26 @@
   background-color: #eaddcf;
 }
 
+.judul-materi {
+  font-family: "Montserrat", "sans-serif";
+}
+
+.materi {
+  font-family: "Roboto", "sans-serif";
+}
+
 .materi {
   display: flex;
   flex-direction: column;
+  padding-right: 150px;
 }
 .materi .sub-materi {
   display: flex;
   flex-direction: row;
   margin: 50px 0px 50px 0px;
+}
+.materi .sub-materi img {
+  margin-left: 0px;
 }
 .materi .sub-materi h3 {
   margin-left: 50px;
