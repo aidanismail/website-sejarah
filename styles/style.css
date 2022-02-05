@@ -18,6 +18,10 @@
   text-align: center;
   justify-content: center;
   align-content: center;
+  position: fixed;
+  padding-left: 100px;
+  padding-right: 800px;
+  opacity: 0.8;
 }
 .header .header-list {
   display: flex;
@@ -26,14 +30,17 @@
   margin-right: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 200px;
+  gap: 100px;
   margin-bottom: 0px;
   justify-content: space-between;
 }
 .header .header-list a {
   text-decoration: none;
+  color: #f5f5f5;
 }
 .header .header-list a:hover {
-  color: white;
+  color: #c0c0c0;
 }
 
 /*judul*/
@@ -41,7 +48,7 @@
   background-color: #eaddcf;
   height: 100px;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 200px;
 }
 .cont1 h1 {
   margin: 0px;
@@ -78,6 +85,10 @@
   background-color: #8c7851;
   text-align: center;
   margin-bottom: 0px;
+  opacity: 0.9;
+}
+.footer .fa-instagram {
+  color: white;
 }
 .footer a i {
   padding-top: 10px;
@@ -85,6 +96,7 @@
 }
 .footer h3 {
   padding-bottom: 5px;
+  color: white;
 }
 
 .header .header-list {
@@ -99,13 +111,17 @@
   font-family: "Montserrat", "sans-serif";
 }
 
+.fa-home {
+  color: black;
+}
+
 .logo {
   background-color: #eaddcf;
   text-align: center;
   justify-content: center;
   align-content: center;
   display: flex;
-  padding: 20px 0px 20px 0px;
+  padding: 150px 0px 20px 0px;
 }
 
 .judul-materi {

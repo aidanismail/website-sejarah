@@ -1,42 +1,44 @@
-$pri-color:#8c7851;
-$sec-color:#eaddcf;
+$pri-color: #8c7851;
+$sec-color: #eaddcf;
 
-.logo{
-    background-color: $sec-color;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    display: flex;
-    padding:20px 0px 20px 0px;
+.fa-home {
+  color: black;
 }
 
-
-.judul-materi{
-    h1{
-        margin: 0px;
-    }
-    text-align: center;
-    background-color: $sec-color;
-    padding-bottom: 50px;
+.logo {
+  background-color: $sec-color;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  padding: 150px 0px 20px 0px;
 }
 
-.img{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $sec-color;
+.judul-materi {
+  h1 {
+    margin: 0px;
+  }
+  text-align: center;
+  background-color: $sec-color;
+  padding-bottom: 50px;
 }
 
-.materi{
-    letter-spacing: 1.1px;
-    line-height: 1.5;
-    padding-right: 0px;
-    padding:50px 0px 100px 300px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: left;
-    background-color: $sec-color;
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $sec-color;
+}
+
+.materi {
+  letter-spacing: 1.1px;
+  line-height: 1.5;
+  padding-right: 0px;
+  padding: 50px 0px 100px 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  background-color: $sec-color;
 }
