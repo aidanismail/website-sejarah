@@ -1,15 +1,15 @@
-@use 'hal1/_hal1-dir';
-@use 'hal2/_hal2-dir';
-@use 'hal3/_hal3-dir';
-@use 'hal4/_hal4-dir';
-@use 'hal5/_hal5-dir';
-@use 'hal6/_hal6-dir';
-@use 'hal7/_hal7-dir';
+@use "hal1/_hal1-dir";
+@use "hal2/_hal2-dir";
+@use "hal3/_hal3-dir";
+@use "hal4/_hal4-dir";
+@use "hal5/_hal5-dir";
+@use "hal6/_hal6-dir";
+@use "hal7/_hal7-dir";
 
-html,body {
-    height: 100%;
-    width: 100%;
-    margin:0;
-    padding:0;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
-

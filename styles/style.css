@@ -12,6 +12,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0px;
+  /* Important for vertical align on mobile phones */
+}
+.dropdown .dropbtn i {
+  font-size: 3rem;
+}
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #8c7851;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown .dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /*header*/
 .header {
   background-color: #8c7851;
@@ -19,8 +58,8 @@
   justify-content: center;
   align-content: center;
   position: fixed;
-  padding-left: 100px;
-  padding-right: 800px;
+  padding-left: 80px;
+  padding-right: 100px;
   opacity: 0.8;
 }
 .header .header-list {
@@ -111,6 +150,11 @@
   font-family: "Montserrat", "sans-serif";
 }
 
+@media only screen and (max-width: 576px) {
+  .footer {
+    background-color: black;
+  }
+}
 .fa-home {
   color: black;
 }
@@ -196,7 +240,8 @@
   padding: 0px;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   margin: 0;
