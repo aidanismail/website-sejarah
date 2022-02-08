@@ -44,13 +44,12 @@ $sec-color: #eaddcf;
   align-content: center;
   position: fixed;
   padding-left: 80px;
-  padding-right: 100px;
+  padding-right: 190px;
   opacity: 0.8;
   .header-list {
+    width: auto;
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
-    margin-right: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 200px;

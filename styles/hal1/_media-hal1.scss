@@ -1,5 +1,25 @@
 @media only screen and(max-width: 576px) {
-  .footer {
-    background-color: black;
+  .header {
+    padding-left: 48px;
+  }
+  .header-list {
+    a {
+      display: none;
+    }
+  }
+  .jumbotron {
+    img {
+      width: 460px;
+    }
+  }
+}
+
+@media only screen and(min-width:1000px) {
+  .header {
+    .header-list {
+      .dropdown {
+        display: none;
+      }
+    }
   }
 } ;

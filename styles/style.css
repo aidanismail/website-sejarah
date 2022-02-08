@@ -59,14 +59,13 @@
   align-content: center;
   position: fixed;
   padding-left: 80px;
-  padding-right: 100px;
+  padding-right: 190px;
   opacity: 0.8;
 }
 .header .header-list {
+  width: auto;
   display: flex;
   flex-direction: row;
-  margin-left: 100px;
-  margin-right: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 200px;
@@ -151,8 +150,21 @@
 }
 
 @media only screen and (max-width: 576px) {
-  .footer {
-    background-color: black;
+  .header {
+    padding-left: 48px;
+  }
+
+  .header-list a {
+    display: none;
+  }
+
+  .jumbotron img {
+    width: 460px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .header .header-list .dropdown {
+    display: none;
   }
 }
 .fa-home {
@@ -205,6 +217,15 @@
   font-family: "Roboto", "sans-serif";
 }
 
+@media only screen and (max-width: 576px) {
+  .img {
+    display: none;
+  }
+
+  .materi {
+    padding-left: 50px;
+  }
+}
 .materi {
   display: flex;
   flex-direction: column;
