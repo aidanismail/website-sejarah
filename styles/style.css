@@ -63,7 +63,6 @@
   opacity: 0.8;
 }
 .header .header-list {
-  width: auto;
   display: flex;
   flex-direction: row;
   padding-top: 20px;
@@ -151,7 +150,13 @@
 
 @media only screen and (max-width: 576px) {
   .header {
-    padding-left: 48px;
+    width: 390px;
+    padding-left: 0px;
+    padding-right: 0px;
+    opacity: 1;
+  }
+  .header .header-list {
+    padding: 0;
   }
 
   .header-list a {
@@ -159,7 +164,7 @@
   }
 
   .jumbotron img {
-    width: 460px;
+    width: 340px;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -223,13 +228,12 @@
   }
 
   .materi {
-    padding-left: 50px;
+    padding: 0px 10px 15px 10px;
   }
 }
 .materi {
   display: flex;
   flex-direction: column;
-  padding-right: 150px;
 }
 .materi .sub-materi {
   display: flex;
@@ -243,6 +247,14 @@
   margin-left: 50px;
 }
 
+@media only screen and (max-width: 576px) {
+  .materi .sub-materi {
+    flex-direction: column;
+  }
+  .materi .sub-materi img {
+    margin-left: 50px;
+  }
+}
 .materi h1 {
   padding: 0;
 }

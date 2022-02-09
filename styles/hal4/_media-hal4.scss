@@ -1,0 +1,10 @@
+@media only screen and (max-width: 576px) {
+  .materi {
+    .sub-materi {
+      flex-direction: column;
+      img {
+        margin-left: 50px;
+      }
+    }
+  }
+}

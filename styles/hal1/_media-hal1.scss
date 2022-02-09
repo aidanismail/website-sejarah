@@ -1,6 +1,12 @@
 @media only screen and(max-width: 576px) {
   .header {
-    padding-left: 48px;
+    .header-list {
+      padding: 0;
+    }
+    width: 390px;
+    padding-left: 0px;
+    padding-right: 0px;
+    opacity: 1;
   }
   .header-list {
     a {
@@ -9,7 +15,7 @@
   }
   .jumbotron {
     img {
-      width: 460px;
+      width: 340px;
     }
   }
 }
