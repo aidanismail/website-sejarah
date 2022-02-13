@@ -148,7 +148,8 @@
   font-family: "Montserrat", "sans-serif";
 }
 
-@media only screen and (max-width: 576px) {
+/*hp*/
+@media only screen and (max-width: 670px) {
   .header {
     width: 390px;
     padding-left: 0px;
@@ -164,12 +165,27 @@
   }
 
   .jumbotron img {
-    width: 340px;
+    width: 300px;
   }
 }
+/*normal*/
 @media only screen and (min-width: 1000px) {
   .header .header-list .dropdown {
     display: none;
+  }
+}
+/*tablet dan laptop*/
+@media only screen and (max-width: 1000px) {
+  .header {
+    padding-left: 0px;
+  }
+  .header .header-list {
+    padding-left: 20px;
+    gap: 65px;
+  }
+
+  .jumbotron img {
+    width: 850px;
   }
 }
 .fa-home {
@@ -222,13 +238,30 @@
   font-family: "Roboto", "sans-serif";
 }
 
-@media only screen and (max-width: 576px) {
+/*hp*/
+@media only screen and (max-width: 670px) {
   .img {
     display: none;
   }
 
   .materi {
     padding: 0px 10px 15px 10px;
+  }
+  .materi h1 {
+    font-size: 20px;
+  }
+  .materi h3 {
+    font-size: 15px;
+  }
+}
+/*tablet dan laptop*/
+@media only screen and (max-width: 1000px) {
+  .img img {
+    width: 700px;
+  }
+
+  .materi {
+    padding-left: 55px;
   }
 }
 .materi {
@@ -247,7 +280,7 @@
   margin-left: 50px;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 670px) {
   .materi .sub-materi {
     flex-direction: column;
   }

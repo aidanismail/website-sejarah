@@ -1,4 +1,5 @@
-@media only screen and(max-width: 576px) {
+/*hp*/
+@media only screen and(max-width: 670px) {
   .header {
     .header-list {
       padding: 0;
@@ -15,11 +16,11 @@
   }
   .jumbotron {
     img {
-      width: 340px;
+      width: 300px;
     }
   }
 }
-
+/*normal*/
 @media only screen and(min-width:1000px) {
   .header {
     .header-list {
@@ -28,4 +29,19 @@
       }
     }
   }
-} ;
+}
+/*tablet dan laptop*/
+@media only screen and(max-width:1000px) {
+  .header {
+    padding-left: 0px;
+    .header-list {
+      padding-left: 20px;
+      gap: 65px;
+    }
+  }
+  .jumbotron {
+    img {
+      width: 850px;
+    }
+  }
+}
