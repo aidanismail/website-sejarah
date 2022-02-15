@@ -1,12 +1,12 @@
 /*hp*/
-@media only screen and(max-width: 670px) {
+@media only screen and (max-width: 670px) {
   .header {
     .header-list {
       padding: 0;
     }
     width: 390px;
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 280px;
     opacity: 1;
   }
   .header-list {
@@ -16,32 +16,38 @@
   }
   .jumbotron {
     img {
-      width: 300px;
-    }
-  }
-}
-/*normal*/
-@media only screen and(min-width:1000px) {
-  .header {
-    .header-list {
-      .dropdown {
-        display: none;
-      }
+      width: 500px;
     }
   }
 }
 /*tablet dan laptop*/
-@media only screen and(max-width:1000px) {
+@media only screen and (min-width: 671px) and (max-width: 1000px) {
+  .dropdown {
+    display: none;
+  }
   .header {
-    padding-left: 0px;
+    padding-left: 0;
+    padding-right: 0;
     .header-list {
-      padding-left: 20px;
-      gap: 65px;
+      gap: 10px;
     }
   }
   .jumbotron {
     img {
-      width: 850px;
+      width: 500px;
     }
+  }
+}
+
+/*normal*/
+@media only screen and(min-width: 1001px) {
+  .header {
+    .header-list {
+      padding-left: 300px;
+    }
+    padding-right: 500px;
+  }
+  .dropdown {
+    display: none;
   }
 }
